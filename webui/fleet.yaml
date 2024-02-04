@@ -7,8 +7,8 @@ labels:
 # Custom helm options
 helm:
   releaseName: ollama-webui
-  chart: oci://ghcr.io/dgiebert/ollama-webui
-  version: main
+  chart: oci://ghcr.io/dgiebert/charts/ollama-webui
+  version: 1.0.0
   values:
     persistence:
       enabled: true
