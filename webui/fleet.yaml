@@ -7,8 +7,8 @@ labels:
 # Custom helm options
 helm:
   releaseName: ollama-webui
-  repo: git::https://github.com/dgiebert/ollama-webui/tree/main/kubernetes/helm
-  #version: main
+  chart: oci://ghcr.io/dgiebert/ollama-webui
+  version: main
   values:
     persistence:
       enabled: true
