@@ -1,0 +1,15 @@
+
+defaultNamespace: ollama
+
+labels:
+  app: ollama
+
+# Custom helm options
+helm:
+  releaseName: ollama
+  chart: ollama
+  repo: https://otwld.github.io/ollama-helm/
+  version: 0.12.0
+  values:
+    persistentVolume:
+      enabled: true

@@ -1,0 +1,14 @@
+
+defaultNamespace: ollama
+
+labels:
+  app: ollama-webui
+
+# Custom helm options
+helm:
+  releaseName: ollama-webui
+  repo: git::https://github.com/dgiebert/ollama-webui//kubernetes/helm
+  version: main
+  values:
+    persistence:
+      enabled: true
