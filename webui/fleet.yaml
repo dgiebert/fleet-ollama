@@ -21,3 +21,9 @@ helm:
       enabled: false
     pipelines:
       enabled: false
+    ingress:
+      enabled: false
+      tls: true
+      annotations:
+        cert-manager.io/cluster-issuer: letsencrypt
+      host: "chat.giebert.dev"
