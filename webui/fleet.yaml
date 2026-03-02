@@ -1,6 +1,10 @@
 
 defaultNamespace: ollama
 
+namespaceLabels:
+  pod-security.kubernetes.io/enforce: privileged
+  pod-security.kubernetes.io/enforce-version: latest
+
 labels:
   app: open-webui
 
