@@ -17,3 +17,4 @@ helm:
   values:
     persistentVolume:
       enabled: true
+      storageClass: local-path
