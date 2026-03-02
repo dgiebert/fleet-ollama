@@ -12,7 +12,7 @@ labels:
 helm:
   releaseName: ollama
   chart: ollama
-  repo: https://otwld.github.io/ollama-helm/
+  repo: https://helm.otwld.com/
   version: 1.47.0
   values:
     persistentVolume:
