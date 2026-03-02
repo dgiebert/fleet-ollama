@@ -17,3 +17,7 @@ helm:
   values:
     persistence:
       storageClass: local-path
+    ollama:
+      enabled: false
+    pipelines:
+      enabled: false
