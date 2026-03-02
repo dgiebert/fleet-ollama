@@ -7,6 +7,6 @@ labels:
 # Custom helm options
 helm:
   releaseName: open-webui
-  chart: ollama
+  chart: open-webui
   repo: https://helm.openwebui.com/
   version: "12.5.0"
