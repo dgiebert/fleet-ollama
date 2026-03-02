@@ -22,7 +22,7 @@ helm:
     pipelines:
       enabled: false
     ingress:
-      enabled: false
+      enabled: true
       tls: true
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt
