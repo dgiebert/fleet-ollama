@@ -15,6 +15,7 @@ helm:
   repo: https://helm.otwld.com/
   version: 1.47.0
   values:
+    runtimeClassName: nvidia
     persistentVolume:
       enabled: true
       storageClass: local-path
