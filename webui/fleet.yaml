@@ -2,13 +2,11 @@
 defaultNamespace: ollama
 
 labels:
-  app: ollama-webui
+  app: open-webui
 
 # Custom helm options
 helm:
-  releaseName: ollama-webui
-  chart: oci://ghcr.io/dgiebert/charts/ollama-webui
-  version: 1.0.0
-  values:
-    persistence:
-      enabled: true
+  releaseName: open-webui
+  chart: ollama
+  repo: https://helm.openwebui.com/
+  version: "12.5.0"
