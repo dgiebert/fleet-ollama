@@ -13,7 +13,7 @@ helm:
   releaseName: ollama
   chart: ollama
   repo: https://helm.otwld.com/
-  version: 1.51.0
+  version: 1.54.0
   values:
     runtimeClassName: nvidia
     persistentVolume:
